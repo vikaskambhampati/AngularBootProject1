@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
 @AllArgsConstructor
 @Builder
 public class Employee {
-    private long id;
     private String empName;
     private String empEmailId;
 }
